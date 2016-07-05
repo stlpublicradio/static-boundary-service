@@ -4,7 +4,7 @@ Inspired by Chicago Tribune's [boundaryservice](https://github.com/newsapps/boun
 
 Theirs requires django, postgresql, postgis, which frankly are largely over my head. Incidentally those things probably also allow boundaryservice to be more efficient and load more and bigger shapefiles than this repo can.
 
-But this one works for our needs. Load up a bunch of topojson layers, type in an address, and see which polygons your address is in. Think: Neighborhoods, school districts, wards, precincts, counties, census-designated places, etc.
+But this one works for our needs. Load up a bunch of topojson layers, type in an address, and see which polygons your address is in. Think: Neighborhoods, school districts, wards, precincts, counties, census-designated places, etc. So far in production we have 12 layers totaling 9.1 MB, and it runs reasonably fast.
 
 Uses [mapbox gl](https://www.mapbox.com/mapbox-gl-js/api/) for generating and displaying the maps, [turf.js](http://turfjs.org/) for figuring out which polygons apply to a point.
 
