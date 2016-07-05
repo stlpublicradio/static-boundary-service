@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+
+#graphic {
+    width: 100%;
+    height: 800px
+}
+
+.map-container {
+    float:left;
+    width: 45%;
+    margin-right: 40px;
+}
+
+.places-container {
+    float:left;
+    width: 45%;
+}
+
+#map {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#note {
+    font-family: "Titillium Web";
+    font-weight: 300;
+    text-align: center
+}
+
+#places .place-content {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px dashed #ddd
+}
+
+#places .place-content h3,
+#places .place-content p {
+    font-family: "Titillium Web"
+}
+
+#places .place-content h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #ccc
+}
+
+#places .place-content p {
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-top: 8px
+}
+
+#places .place-content .color {
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+    float: left;
+    margin: 0 5px 5px 0
+}
+
+#places div,
+#places h3,
+#places p {
+    margin: 0
+}
