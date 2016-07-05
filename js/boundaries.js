@@ -35,12 +35,12 @@ var onDocumentLoad = function(e) {
 
     // here are the layers; you can add as many of these as needed, only layers relevant to the selected point will be displayed
     var layers = [{
-        "fileName": "../shapefiles/stl_nhoods.topojson",
+        "fileName": "shapefiles/stl_nhoods.topojson",
         "layerName": "stl_nhoods",
         "displayName": "Neighborhood"
     }
     , {
-        "fileName": "../shapefiles/stl_ward.topojson",
+        "fileName": "shapefiles/stl_ward.topojson",
         "layerName": "stl_ward",
         "displayName": "Ward"
     }
