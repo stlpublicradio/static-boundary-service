@@ -8,6 +8,8 @@ But this one works for our needs. Load up a bunch of topojson layers, type in an
 
 Uses [mapbox gl](https://www.mapbox.com/mapbox-gl-js/api/) for generating and displaying the maps, [turf.js](http://turfjs.org/) for figuring out which polygons apply to a point.
 
+[Live demo](https://stlpublicradio.github.io/static-boundary-service/)
+
 ## Instructions
 
 Get a mapbox [access token](https://www.mapbox.com/help/define-access-token/), and add it to the appropriate spot in `boundaries.js`
