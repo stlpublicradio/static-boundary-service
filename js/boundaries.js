@@ -4,7 +4,7 @@ var COLORS = ["#006c8e", "#f1bb4f", "#f6883e", "#55b7d9", "#e8604d", "#571751", 
 var onDocumentLoad = function(e) {
 
     // mapbox access token — update this with your own
-    mapboxgl.accessToken = "";
+    mapboxgl.accessToken = "pk.eyJ1Ijoic3RscHIiLCJhIjoiY2lxOWxrbjRrMDFnd2Z2bTZjemptanp6eSJ9.lqz9jtbwb2icSCgs9GcWxg";
 
     // set up map
     var map = new mapboxgl.Map({
