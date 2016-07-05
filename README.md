@@ -8,7 +8,7 @@ But this one works for our needs. Load up a bunch of topojson layers, type in an
 
 Uses [mapbox gl](https://www.mapbox.com/mapbox-gl-js/api/) for generating and displaying the maps, [turf.js](http://turfjs.org/) for figuring out which polygons apply to a point.
 
-[Live demo](https://stlpublicradio.github.io/static-boundary-service/)
+[Live demo](https://stlpublicradio.github.io/static-boundary-service/) (_note: shapefiles loaded in the demo only cover city of St. Louis_)
 
 ## Instructions
 
